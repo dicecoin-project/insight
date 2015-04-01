@@ -6,7 +6,7 @@
     "name": "Ryan X Charles",
     "email": "ryan@bitpay.com"
   },
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/startcoin-project/insight.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,9 +30,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/startcoin-project/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/startcoin-project/insight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -46,7 +46,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": ">0.2.10"
+    "insight-bitcore-api": "git://github.com/startcoin-project/insight-api.git#351ffc2e8b97187da93dd2a75a03df5b7eb91e47"
   },
   "devDependencies": {
     "bower": "~1.2.8",
