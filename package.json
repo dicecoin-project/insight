@@ -46,7 +46,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": "git://github.com/startcoin-project/insight-api.git#20023d132753a35485d351e36c237712edfc3ec9"
+    "insight-bitcore-api": "git://github.com/startcoin-project/insight-api.git#3f83e25fe108c5868c3d67257c55489efe23d7b8"
   },
   "devDependencies": {
     "bower": "~1.2.8",
